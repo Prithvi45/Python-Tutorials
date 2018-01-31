@@ -2,5 +2,7 @@ Sample Django Projects will be uploaded in this Folder
 
 Project Name "Server"
 - This is an example of Implementation of Class based Views on ManyToMany and Intermidiate tables 
+
 Project Name"Featuredchannel"
 -Implementation of Django-taggit for tags purpose
+- Complete Class based Views implementation
