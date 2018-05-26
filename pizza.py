@@ -3,7 +3,7 @@ import pandas as pd
 pizzas = [
     "Hawaiian",
     "Champagne Ham & Cheese",
-    "Beef & Onion",
+    "Onion",
     "Pepperoni",
     "Simply Cheese",
     "Bacon & Mushroom",
@@ -59,38 +59,3 @@ while True:
         print "Don't be an idiot." # :-)
         raw_input("Press any key to exit.")
         break
-
-             <div style="overflow: scroll; height:300px;" >
-            {{sol.code|safe}}
-             </div>
-
-<!-- social share -->
-
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{question.title}}">
-    <meta property="og:description" content="{{question.summary}}">
-    <meta property="og:url" content="/probandsols/problem/{{question.slug}}">
-    <meta property="og:image" content="/media/{{solution.photo}}">
-
-
-
-    <iframe src="http://www.zekestats.com/media/{{file}}" width="100%" height="1000">
-    {{solution.code|safe}}
-    </iframe>
-
-
-
-                <iframe   src="http://www.zekestats.com/media/{{sol.datarcat}}"  width="100%" height="1000">
-              {{sol.code|safe }}
-               </iframe>
-             </div>
-
-
-
-             <div style="overflow: scroll; height:300px;" >
-
-           <iframe src="http://www.zekestats.com/media/{{file}}" width="100%" height="1000">
-           {{solution.code|safe}}
-           </iframe>
-
-             </div>
